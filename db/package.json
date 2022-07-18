@@ -1,0 +1,16 @@
+{
+  "name": "deploy",
+  "dependencies": {
+    "@sap/audit-logging": "^5.5.4",
+    "@sap/hdi-deploy": "^4.4.1",
+    "@sap/xsenv": "^3.3.2",
+    "@sap/xssec": "^3.2.13",
+    "passport": "^0.6.0"
+  },
+  "engines": {
+    "node": "^12.18.0 || ^14.0.0 || ^16.0.0"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/hdi-deploy/deploy.js  --auto-undeploy"
+  }
+}
